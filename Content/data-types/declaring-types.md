@@ -1,3 +1,5 @@
+# Declaring Types
+
 Just like in TypeScript, you can use the `type` keyword to declare types and type aliases. For example:
 
 ```rust

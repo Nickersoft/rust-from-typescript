@@ -1,3 +1,5 @@
+# Variables & Mutability
+
 Like TypeScript, Rust has a `const`, `static`, and `let` keyword. Unfortunately, their meanings slightly vary.
 
 - **`let`** variables, unlike in TypeScript, represent *immutable values*. To make a `let` variable mutable, you must use the `mut` keyword.

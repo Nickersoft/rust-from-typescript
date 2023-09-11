@@ -1,3 +1,5 @@
+# Tuples
+
 There are a couple of ways you can represent tuples in Rust: via literals or via structs. 
 
 To illustrate, let's look at the following TypeScript example:
@@ -24,7 +26,7 @@ println!("Tuple values: {} and {}.", my_tuple.0, my_tuple.1);
 
 ## Using a Struct
 
-Instead of using a [[Declaring Types|type alias]], you could also just use a struct:
+Instead of using a [[declaring-types|type alias]], you could also just use a struct:
 
 ```rust
 struct MyTuple(i32, bool);

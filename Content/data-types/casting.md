@@ -1,3 +1,5 @@
+# Casting
+
 Just like in TypeScript, you can explicitly cast any literal in Rust via the `as` keyword. 
 
 ```rust
@@ -12,7 +14,7 @@ However, the system breaks down when you are dealing with structs and enums. For
 let user = 30 as Number;
 ```
 
-To cast properly, we'll need to use either the `From` or `Into` [[Traits|trait]]:
+To cast properly, we'll need to use either the `From` or `Into` [[../traits|trait]]:
 - **`From`** allows you to write a method that instantiates a new struct *from a passed value*
 - **`Into`** allows you to *convert an existing value* into the desired struct
 
@@ -54,7 +56,7 @@ In fact, the `Into` implementation in the above code isn't even really needed â€
 
 However â€“ what if our type conversion can actually fail? For instance, what if we only wanted `Number` to store even numbers and error otherwise?
 
-For this case, we would instead use the `TryFrom` and `TryInto` traits. These traits return a [[Error Handling|Result]] instead of just the value:
+For this case, we would instead use the `TryFrom` and `TryInto` traits. These traits return a [[../basics/error-handling|Result]] instead of just the value:
 
 ```rust
 #[derive(Debug, PartialEq)]

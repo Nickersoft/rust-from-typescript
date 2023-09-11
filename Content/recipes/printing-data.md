@@ -1,3 +1,5 @@
+# Printing Data
+
 By default, Rust doesn't know how to print non-scalar data.
 
 ```rust
@@ -54,7 +56,7 @@ println!("{:#?}", person);
 ```
 ## Display
 
-To *customize* the way an object is represented when printing to stdout, we'll need to use the `Display` [[Traits|trait]] instead. 
+To *customize* the way an object is represented when printing to stdout, we'll need to use the `Display` [[traits|trait]] instead. 
 
 In TypeScript, you might achieve this by giving a class a custom `.toString()` method:
 

@@ -1,3 +1,5 @@
+# Collections
+
 While collections in TypeScript can almost always be represented by the `T[]` or `Array<T>` type annotations, collections are much more nuanced in Rust. 
 
 There are three primary kinds of collections: vectors, arrays, and slices.

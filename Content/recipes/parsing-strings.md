@@ -1,3 +1,5 @@
+# Parsing Strings
+
 In the world of JavaScript or TypeScript, you'll typically see different functions for parsing strings into different objects. For dates, there is `Date.parse()`. For integers, there is `parseInt()`.
 
 In Rust, there is just `FromStr`.
@@ -46,7 +48,7 @@ let point1: Point = "(10, 20)".parse();
 let point2: Point = Point::from_str("(20, 30)");
 ```
 
-Notice that unlike [[Data Types/Casting|with casting and conversions]], `FromStr` always returns a [[Error Handling|Result]], as there's never any guarantee a string will be valid. Therefore, there is no `TryFromStr` trait like there is `TryFrom`.
+Notice that unlike [[data-types/casting|with casting and conversions]], `FromStr` always returns a [[../basics/error-handling|Result]], as there's never any guarantee a string will be valid. Therefore, there is no `TryFromStr` trait like there is `TryFrom`.
 
 ## Additional Reading
 

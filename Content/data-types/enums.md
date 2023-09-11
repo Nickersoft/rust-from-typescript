@@ -1,3 +1,5 @@
+# Enums
+
 Just like TypeScript, Rust also has enums. That said, they are more akin to Swift-styled enums in the sense they can contain [associated values](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/enumerations/#Associated-Values). 
 
 In fact, they go even a step beyond Swift, as they allow you to store *entire structs* as enum values.

@@ -6,6 +6,8 @@ However, as more of a visual learner myself, thought it might be easier to under
 
 This repository is a work in progress and is being written as I navigate the [Rust by Example](https://doc.rust-lang.org/stable/rust-by-example/) e-book and conduct my own research. Hope it helps you as much as it is helping me.
 
+**This book assumes you already know TypeScript (or JavaScript) decently well.**
+
 – Ty
 
 ---
@@ -13,20 +15,27 @@ This repository is a work in progress and is being written as I navigate the [Ru
 # Table of Contents
 
 - The Basics
-	- [Variables & Mutability](Content/Variables%20&%20Mutability.md)
+	- [Variables & Mutability](content/basics/variables.md)
+	- [Returning Stuff](content/basics/returning-stuff.md)
+	- [Error Handling](content/basics/error-handling.md)
 - Data Types
-	- [Cheat Sheet](Content/Data%20Types/Cheat%20Sheet.md)
-	- [Casting](Content/Data%20Types/Casting.md)
-	- [Declaring Types](Content/Data%20Types/Declaring%20Types.md)
-	- [Classes](Content/Data%20Types/Classes.md)
-	- [Collections](Content/Data%20Types/Collections.md)
-	- [Enums](Content/Data%20Types/Enums.md)
-	- [Tuples](Content/Data%20Types/Tuples.md)
+	- [Cheat Sheet](content/data-types/cheat-sheet.md)
+	- [Casting](content/data-types/casting.md)
+	- [Declaring Types](content/data-types/declaring-types.md)
+	- [Classes](content/data-types/classes.md)
+	- [Collections](content/data-types/collections.md)
+	- [Enums](content/data-types/enums.md)
+	- [Tuples](content/data-types/tuples.md)
+	- [Optionals](content/data-types/optionals.md)
+- Logic Flow
+	- [What Stays The Same](content/logic-flow/same.md)
+	- [Infinite Looping](content/logic-flow/loop.md)
+	- [Matching](content/logic-flow/match.md)
+	- [Associated Values](content/logic-flow/let.md)
 - Rust-Specific Stuff
-	- [Error Handling](Content/Rust-Specific%20Stuff/Error%20Handling.md)
-	- [Type Suffixes](Content/Rust-Specific%20Stuff/Type%20Suffixes.md)
-- How-Tos
-	- [Printing Data](Content/Printing%20Data.md)
-	- [Parsing Strings](Content/Parsing%20Strings.md)
-	- [Destructuring & Spreading](Content/Destructuring%20&%20Spreading.md)
+	- [Type Suffixes](content/rust/type-suffixes.md)
+- Recipes
+	- [Printing Data](content/recipes/printing-data.md)
+	- [Parsing Strings](content/recipes/parsing-strings.md)
+	- [Destructuring](content/recipes/destructuring.md)
 

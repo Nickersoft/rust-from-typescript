@@ -1,3 +1,5 @@
+# Type Suffixes
+
 For all numeric types in Rust, you can simply append the desired type to the end of the number to cast it:
 
 ```rust

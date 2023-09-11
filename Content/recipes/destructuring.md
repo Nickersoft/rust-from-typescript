@@ -1,3 +1,5 @@
+# Destructuring & Spreading
+
 Just like in TypeScript, objects can have their properties destructured and spread.
 
 Say we have the following TypeScript code:

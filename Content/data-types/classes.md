@@ -1,3 +1,5 @@
+# Classes
+
 Like many languages, Rust uses [structs](https://en.wikipedia.org/wiki/Struct_(C_programming_language)) instead of classes. Fortunately, structs can have both methods and fields, just like TypeScript classes.
 
 Where in TypeScript you might write:
